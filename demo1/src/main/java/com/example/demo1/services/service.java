@@ -1,17 +1,14 @@
-package services;
+package com.example.demo1.services;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import enities.person;
-import personrepository.personrepo;
+import com.example.demo1.enities.person;
+import com.example.demo1.personrepository.personrepo;
 
 @Service
 public class service {

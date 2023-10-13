@@ -1,4 +1,4 @@
-package enities;
+package com.example.demo1.enities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -6,19 +6,19 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="emp")
-public class employee {
-     @Id
+public class Employee {
+	@Id
 	int id;
 	String name;
 	String spouse;
 	
 	
-	public employee(int id, String name) {
+	public Employee(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
 	}
-	public employee() {
+	public Employee() {
 		
 	}
 	
